@@ -28,7 +28,7 @@ func (st *SymbolTable) Load(path string) {
 	reader := bufio.NewReader(file)
 
 	stat := 0
-	font := 0
+	char := 0
 
 	for {
 
@@ -47,9 +47,9 @@ func (st *SymbolTable) Load(path string) {
 			}
 
 			for _, ch := range line {
-				font = int(ch - 65)
-				if font < 0 || font > 25 {
-					panic("invalid font number")
+				char = int(ch - 65)
+				if char < 0 || char > 25 {
+					panic("invalid char number")
 				}
 			}
 
@@ -72,7 +72,7 @@ func (st *SymbolTable) Load(path string) {
 					if j > 8 {
 						break
 					}
-					st.table[font][i][j] = r
+					st.table[char][i][j] = r
 				}
 			}
 
