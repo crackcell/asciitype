@@ -11,7 +11,7 @@
       |   |     |   |   |     |   |     --| 
       |___|     |___|   |_____|   |_______| 
 
-asciitype
+AsciiType
 =========
 
 Convert English characters to ASCII text.
