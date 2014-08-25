@@ -2,8 +2,8 @@ package engine
 
 import (
 	"bufio"
-	"com/github/crackcell/asciitype/utils"
 	"fmt"
+	"github.com/crackcell/asciitype/utils"
 	"os"
 	"strings"
 )

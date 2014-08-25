@@ -2,9 +2,9 @@ package main
 
 import (
 	"bufio"
-	"com/github/crackcell/asciitype/engine"
 	"flag"
 	"fmt"
+	"github.com/crackcell/asciitype/engine"
 	"os"
 	"strings"
 )
